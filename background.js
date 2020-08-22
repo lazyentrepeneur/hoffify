@@ -1,7 +1,7 @@
 $(document).ready(function() {
-	var chance = Math.floor(Math.random() * 100);
-	if(chance == 69) {
-		cenafy();
+	var chance = Math.floor(Math.random() * 1);
+	if(chance == 1) {
+		hoffify();
 	}
 });
 
@@ -10,7 +10,7 @@ var generateHTML = function() {
 	return html;
 };
 
-var cenafy = function() {
+var hoffify = function() {
 	setTimeout(function() { // Wait 3 seconds before cenafying
 		var html = generateHTML();
 		$('body').html(html);
